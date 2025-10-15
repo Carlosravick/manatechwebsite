@@ -6,13 +6,18 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-              <span className="font-mono text-lg font-bold text-primary-foreground">M</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-sm font-bold leading-none text-foreground">MANATECH</span>
-              <span className="text-xs leading-none text-muted-foreground">Detectar+</span>
+          <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
+              <div className="text-lg font-bold tracking-tight">
+                <span className="text-white">MANA</span>
+                <span className="text-primary">TECH</span>
+              </div>
+              <div className="h-6 w-px bg-border/60" />
+              <div className="flex items-baseline font-bold text-lg tracking-tight">
+                <span className="text-white">Detecta</span>
+                <span className="text-[#FF8C00] text-xl font-black">+</span>
+              </div>
+
             </div>
           </div>
 

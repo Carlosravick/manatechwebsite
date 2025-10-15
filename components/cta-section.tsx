@@ -19,7 +19,10 @@ export function CTASection() {
               Pronto para ter controle total do seu estoque?
             </h2>
             <p className="mb-10 text-pretty text-lg text-muted-foreground lg:text-xl">
-              Junte-se a centenas de empresas que já reduziram perdas e aumentaram a eficiência com o Detectar+
+              Junte-se a centenas de empresas que já reduziram perdas e aumentaram a eficiência com o{" "}
+              <span className="text-white">Detecta</span>
+              <span className="text-[#FF8C00] font-bold">+</span>
+
             </p>
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button
