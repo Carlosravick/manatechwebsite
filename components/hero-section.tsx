@@ -26,8 +26,10 @@ export function HeroSection() {
           </h1>
 
           <p className="mb-10 text-pretty text-lg leading-relaxed text-muted-foreground lg:text-xl max-w-3xl mx-auto">
-            O Detectar+ usa câmeras inteligentes e IA para detectar, contar e monitorar seus objetos automaticamente.
-            Receba alertas instantâneos e tenha controle total via app mobile.
+            O <span className="text-white">Detecta</span>
+            <span className="text-[#FF8C00] font-bold">+</span> usa câmeras inteligentes e IA para detectar, contar e
+            monitorar seus objetos automaticamente. Receba alertas instantâneos e tenha controle total via app mobile.
+
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -54,7 +56,8 @@ export function HeroSection() {
               <div className="relative aspect-video overflow-hidden rounded-xl bg-muted ring-2 ring-primary/30">
                 <img
                   src="/modern-dashboard-with-camera-feeds-and-inventory-m.jpg"
-                  alt="Detectar+ Dashboard"
+                  alt="Detecta+ Dashboard"
+
                   className="h-full w-full object-cover"
                 />
               </div>

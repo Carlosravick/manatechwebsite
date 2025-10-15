@@ -5,7 +5,11 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+<<<<<<< HEAD
     "lint": "next lint",
+=======
+    "lint": "eslint .",
+>>>>>>> 67be507 (feat:addlogo)
     "start": "next start"
   },
   "dependencies": {

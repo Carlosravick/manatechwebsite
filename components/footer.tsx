@@ -4,15 +4,20 @@ export function Footer() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <div className="mb-4 flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-                <span className="font-mono text-lg font-bold text-primary-foreground">M</span>
+            <div className="mb-4">
+              <div className="flex items-baseline gap-2">
+                <span className="text-2xl font-bold">
+                  <span className="text-white">MANA</span>
+                  <span className="text-primary">TECH</span>
+                </span>
               </div>
-              <div className="flex flex-col">
-                <span className="text-sm font-bold leading-none text-card-foreground">MANATECH</span>
-                <span className="text-xs leading-none text-muted-foreground">Detectar+</span>
-              </div>
+              <span className="mt-2 block text-lg font-semibold">
+                <span className="text-white">Detecta</span>
+                <span className="text-[#FF8C00]">+</span>
+              </span>
             </div>
+            {/* </CHANGE> */}
+
             <p className="text-sm text-muted-foreground">
               Controle inteligente de estoque com IA e monitoramento em tempo real.
             </p>
