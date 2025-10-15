@@ -32,7 +32,6 @@ export function HowItWorksSection() {
           <h2 className="mb-4 text-balance text-3xl font-bold text-card-foreground lg:text-5xl">
             Como funciona o <span className="text-white">Detecta</span>
             <span className="text-[#FF8C00] font-extrabold">+</span>
-
           </h2>
           <p className="mx-auto max-w-2xl text-pretty text-lg text-muted-foreground">
             Implementação simples em 4 passos para revolucionar seu controle de estoque
